@@ -1,18 +1,69 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="dark">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Crime Report System</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content>
+  <div text-center padding-bottom>
+    <h1 color='dark'>Home</h1>
+  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6 text-center (click)="reportCrime()">
+        <ion-row>
+            <ion-col col-12>
+              <img src="assets/imgs/add-reports.svg" height="50"/>
+            </ion-col>
+            <ion-col col-12>
+              <h2>Report Crime</h2>
+            </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col col-6 text-center (click)="readCrime()">
+        <ion-row>
+            <ion-col col-12>
+                <img src="assets/imgs/read-reports.svg" height="50"/>
+            </ion-col>
+            <ion-col col-12>
+              <h2>Read Reports</h2>
+            </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col col-12 text-center (click)="emergency()">
+        <ion-row>
+            <ion-col col-12>
+                <img src="assets/imgs/24h.svg" height="50"/>
+            </ion-col>
+            <ion-col col-12>
+              <h2>States Emergency Numbers</h2>
+            </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col col-6 text-center (click)="profilepage()">
+        <ion-row>
+          <ion-col col-12>
+            <img src="assets/imgs/girl.svg" height="50"/>
+          </ion-col>
+          <ion-col col-12><h2>User Profile</h2></ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col col-6 text-center (click)="contactPage()">
+        <ion-row>
+          <ion-col col-12>
+              <img src="assets/imgs/contact.svg" height="50"/>
+          </ion-col>
+          <ion-col col-12><h2>Contact Us</h2></ion-col>
+        </ion-row>
+      </ion-col>
+      
+    </ion-row>
+  </ion-grid>
+  <ion-fab right bottom>
+    <button ion-fab color="dark" right (click)="reportCrime()" style="font-size: 26px">+</button>
+  </ion-fab>
+ 
 </ion-content>

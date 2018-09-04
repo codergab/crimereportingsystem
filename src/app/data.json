@@ -1,0 +1,35 @@
+[
+    {
+        "idKey": 1,
+        "title": "A Cat was Killed",
+        "type": "Murder",
+        "description": "The Cat was killed when it was about to enter the neighborhood",
+        "files": "",
+        "date": "12/18/10",
+        "location": "Nigeria",
+        "state": "Lagos",
+        "town": "Gbagada"
+    },
+    {
+        "idKey": 2,
+        "title": "A Goat was Killed",
+        "type": "Murder",
+        "description": "The goat was killed when it was about to enter the neighborhood",
+        "files": "",
+        "date": "12/18/10",
+        "location": "Nigeria",
+        "state": "Lagos",
+        "town": "Gbagada"
+    },
+    {
+        "idKey": 3,
+        "title": "A Ram was Killed",
+        "type": "Murder",
+        "description": "The Ram was killed when it was about to enter the neighborhood",
+        "files": "",
+        "date": "12/18/10",
+        "location": "Nigeria",
+        "state": "Lagos",
+        "town": "Gbagada"
+    }
+]

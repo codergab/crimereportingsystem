@@ -1,0 +1,23 @@
+{
+  "-LJjKuhD119mvxkpLrSv" : {
+    "date" : "2018-08-12",
+    "description" : "This is a general crime type ans this has to work",
+    "files" : "",
+    "location" : "Ibadan",
+    "state" : "Oyo",
+    "title" : "Adigun Alapo meji",
+    "town" : "Abeokuta",
+    "type" : "Robbery"
+  },
+  "-LJjZGEykARkkJlBTgv9" : {
+    "date" : "2018-08-12",
+    "description" : "This event was named ConcatenateConf and we have lot and lots of developers who attended the coference and it was amazing",
+    "files" : "",
+    "location" : "Zone Tech Park",
+    "state" : "Lagos",
+    "title" : "Cloudinary Made a Successful Event",
+    "town" : "Lagos",
+    "type" : "Theft"
+  }
+
+}

@@ -38,7 +38,7 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #000
 );
 
 
@@ -46,7 +46,9 @@ $colors: (
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
-
+$text-input-highlight-color-valid:#32db64;	
+$text-input-highlight-color-invalid: #f53d3d;	
+$text-input-placeholder-color: #999;
 
 
 // App Material Design Variables

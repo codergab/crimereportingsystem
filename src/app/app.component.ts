@@ -4,7 +4,12 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { AddCrimePage } from '../pages/add-crime/add-crime';
+import { ProfilePage } from '../pages/profile/profile';
+import { CrimeNewsPage } from '../pages/crime-news/crime-news';
+import { ContactPage } from '../pages/contact/contact';
+import { EmergencyPage } from '../pages/emergency/emergency';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -14,15 +19,19 @@ export class MyApp {
 
   rootPage: any = HomePage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{icon: string, title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { icon: '', title: 'Home', component: HomePage },
+      { icon: '', title: 'Add Report ', component: AddCrimePage },
+      { icon: '', title: 'Latest Crime News ', component: CrimeNewsPage },
+      { icon: '', title: 'Emergency Numbers ', component: EmergencyPage },
+      { icon: '', title: "User's Profile", component: ProfilePage },
+      { icon: '', title: 'Contact Us', component: ContactPage },
     ];
 
   }

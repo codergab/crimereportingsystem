@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>Add Crime Report</ion-title>
+    <button ion-button menuToggle end>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <iframe src="https://crim.thejetboss.com/add-crime" frameborder="0" height="100%" width="100%"></iframe>
+  <!-- <form (ngSubmit)="addCrime()">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label stacked >Crime Title</ion-label>
+          <ion-input type="text" [(ngModel)]="formData.title" name="title"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label>Crime Type</ion-label>
+          <ion-select [(ngModel)]="formData.fileType" name="fileType">
+            <ion-option value="Robbery">Robbery</ion-option>
+            <ion-option value="Loss of property" >Loss of property</ion-option>
+            <ion-option value="Robbery" >Robbery</ion-option>
+            <ion-option value="Kidnapping" >Kidnapping</ion-option>
+            <ion-option value="Murder [Homicide, Suicide]" >Murder [Homicide, Suicide]</ion-option>
+            <ion-option value="Automobile accident" >Automobile accident</ion-option>
+            <ion-option value="Child abuse" >Child abuse</ion-option>
+            <ion-option value="Bully/Hooliganism" >Bully/Hooliganism</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label stacked >Crime Description</ion-label>
+          <ion-textarea [(ngModel)]="formData.description" name="description"></ion-textarea>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label stacked >Attach Files</ion-label>
+          <ion-input type="file" [(ngModel)]="formData.files" name="files"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label stacked >Crime Date</ion-label>
+          <ion-input type="date" [(ngModel)]="formData.date" name="date"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label stacked >Crime Location</ion-label>
+          <ion-input type="text" [(ngModel)]="formData.location" color="dark" name="location"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col col-6>
+        <ion-item>
+          <ion-label stacked >State</ion-label>
+          <ion-input type="text" [(ngModel)]="formData.state" color="dark" name="state"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col col-6>
+        <ion-item>
+          <ion-label stacked >City / Town</ion-label>
+          <ion-input type="text" [(ngModel)]="formData.town" color="dark" name="town"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div padding>
+    <button ion-button block color="dark">Publish</button>
+  </div>
+  </form> -->
+</ion-content>
